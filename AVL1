@@ -1,0 +1,193 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct no{
+  
+  int chave, valor, alt;
+  
+  struct no* direito;
+  struct no* esquerdo;
+
+} N;
+
+N* novoNo(int chave, int valor);
+int max(int a, int b);
+int alt(N* p);
+void recal(N* p);
+N* rotDir(N* p);
+N* rotEsq(N* p);
+N* bala(N* p);
+N* proc(N* p, int chave);
+N* insereNo(N* p, int chave, int valor);
+N* acheMin(N* p);
+N* removeMin(N* p);
+N* removeItem(N* p, int chave);
+void esvaziar(N* p);
+
+int main(){
+ N* root = NULL;
+
+    char c;
+    int k, d;
+    while ( scanf("%c", &c) && c != 'F' )
+    {
+        if ( c == 'A' )
+        {
+            scanf("%d %d", &k, &d);
+            root = insereNo(root, k, d);
+        }
+        else if ( c == 'S' )
+        {
+            scanf("%d", &k);
+            N* n = proc(root, k);
+            if ( n ) 
+                printf("%d %d\n", n -> chave, n -> valor);
+        }
+        else if ( c == 'D' )
+        {
+            scanf("%d", &k);
+            root = removeItem(root, k);
+        }
+    }
+
+return 0;
+
+}
+
+
+N* novoNo(int chave, int valor){
+  N* pt = malloc(sizeof(N));
+  pt->chave = chave;
+  pt->valor = valor;
+  pt->alt = 1;
+  pt->esquerdo = NULL;
+  pt->direito = NULL;
+
+  return pt;
+}
+
+N* insereNo(N* p, int chave, int valor){
+  if(!p)
+    return novoNo(chave, valor);
+  
+  if(chave < p->chave){
+    p->esquerdo = insereNo(p->esquerdo, chave, valor);
+  } else if(chave > p->chave){
+    p->direito = insereNo(p->direito, chave, valor);
+  } else { p->valor = valor;}
+
+  return bala(p);
+}
+
+int max(int a, int b){
+  
+  return a > b ? a : b;
+
+}
+
+int alt(N* p){
+
+  return p ? p->alt : 0;
+
+}
+
+void recal(N* p){
+
+  p->alt = 1 + max(alt(p->esquerdo), alt(p->direito));
+
+}
+
+N* rotDir(N* p){
+
+  N* t = p->esquerdo;
+
+  p->esquerdo = t->direito;
+  t->direito = p;
+
+  recal(p);
+  recal(t);
+
+  return t;
+}
+
+N* rotEsq(N* p){
+
+  N* t = p->direito;
+
+  p->direito = t->esquerdo;
+  t->esquerdo = p;
+
+  recal(p);
+  recal(t);
+
+  return t;
+}
+
+N* bala(N* p){
+  
+  recal(p);
+
+  if(alt(p->esquerdo) - alt(p->direito) == 2){
+    if(alt(p->esquerdo->direito) > alt(p->esquerdo->esquerdo))
+      p->esquerdo = rotEsq(p->esquerdo);
+    return rotDir(p);
+  } else if(alt(p->direito) - alt(p->esquerdo) == 2) {
+    if(alt(p->direito->esquerdo) > alt(p->direito->direito))
+      p->direito = rotDir(p->direito);
+    return rotEsq(p);
+  }
+
+  return p;
+}
+
+N* proc(N* p, int chave){
+  if(!p)
+    return NULL;
+  
+  if(chave < p->chave){
+    return proc(p->esquerdo, chave);
+  } else if(chave > p->chave){
+    return proc(p->direito, chave);
+  } else{ return p;}
+}
+
+N* acheMin(N* p){
+    if (p->esquerdo != NULL){
+        return acheMin(p->esquerdo);
+    }else{
+        return p;}
+}
+
+N* removeMin(N* p){
+    if(p->esquerdo == NULL)
+        return p->direito;
+
+    p->esquerdo = removeMin(p->esquerdo);
+    return bala(p);
+}
+
+N* removeItem(N* p, int chave){
+    if (!p)
+        return NULL;
+
+    if (chave < p->chave){
+        p->esquerdo = removeItem(p->esquerdo, chave);
+    }else if(chave > p->chave){
+        p->direito = removeItem(p->direito, chave);
+    }else{
+        N* l = p->esquerdo;
+        N* r = p->direito;
+        free(p);
+
+        if (r == NULL)
+            return l;
+
+        N* m = acheMin(r);
+        m->direito = removeMin(r);
+        m->esquerdo = l;        
+
+        return bala(m);
+    }
+
+    return bala(p);
+}
