@@ -40,6 +40,8 @@ void menuRemove();
 int contaNosFolha(Tree*t);
 int max(int a,int b);
 int alturaArvore(Tree*t);
+void criaJson(Tree*t);
+int maiorNo(Tree*t);
 
 /*
  *
@@ -54,6 +56,8 @@ int main(int argc, char** argv) {
     imprimePreOrdem(raiz);
     printf("\nA árvore possue %d nós-folha.",contaNosFolha(raiz));
     printf("\nA altura da árvore é %d.",alturaArvore(raiz));
+    printf("\nCria Json:");
+    criaJson(raiz);
     
     menuRemove();
     
@@ -110,8 +114,8 @@ void imprimePreOrdem(Tree *t){
     if(!isEmpty(t)){
         printf("(");
         printf("%d",t->info);
-        imprimeEmOrdem(t->esq);
-        imprimeEmOrdem(t->dir);
+        imprimePreOrdem(t->esq);
+        imprimePreOrdem(t->dir);
         printf(")");
     }
 }
@@ -119,8 +123,8 @@ void imprimePosOrdem(Tree *t){
     //printf("<--%d", t);
     if(!isEmpty(t)){
         printf("(");
-        imprimeEmOrdem(t->esq);
-        imprimeEmOrdem(t->dir);
+        imprimePosOrdem(t->esq);
+        imprimePosOrdem(t->dir);
         printf("%d",t->info);
         printf(")");
 
@@ -233,4 +237,37 @@ int alturaArvore(Tree*t){
     int h_dir = alturaArvore(t->dir);
     t->altura = max(h_esq, h_dir)+1; 
     return t->altura;
+}
+
+
+void criaJson(Tree *t){
+    //printf("<--%d", t);
+    if(!isEmpty(t)){
+        printf("{");
+        printf("\n");
+        if((t->esq == NULL)&&(t->dir == NULL)){
+          printf("\"chave\":%d",t->info);
+        }else{
+          printf("\"chave\":%d,",t->info);
+          printf("\n");
+          if( (alturaArvore(t->dir)) ==(alturaArvore(t->esq))){
+            printf("\"children\":[");
+            criaJson(t->esq);
+            printf(",");
+            criaJson(t->dir);
+            printf("]");
+          }else{
+            printf("\"children\":[");
+            criaJson(t->esq);
+            criaJson(t->dir);
+            printf("]");
+          } 
+        }
+        if((t->esq == NULL)&&(t->dir == NULL)){
+          printf("}");
+        }else{
+          printf("},");
+        }
+        
+    }
 }
