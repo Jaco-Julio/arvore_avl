@@ -1,211 +1,1359 @@
 {
-    "chave":9999,
-    "children": [
-    {
-        "chave":9999,
-        "children": [{
-            "chave":9999,
-            "children":[
-            {
-                "chave":9999,
-                "children": [
-                {
-                    "chave":9999,
-                    "children": [{
-                        "chave":9999
-                    }, {
-                        "chave":9999
-                    }]
-                }, {
-                    "chave":9999,
-                    "children": [{
-                        "chave":9999,
-                        "chilren":[
-                            {
-                                "chave":9999,
-                                "children": [{
-                                    "chave":9999
-                                }, {
-                                    "chave":9999
-                                }]
-                            }, {
-                                "chave":9999,
-                                "children": [{
-                                    "chave":9999
-                                }, {
-                                    "chave":9999
-                                }, {
-                                    "chave":9999,
-                                    "children": [{
-                                        "chave":9999
-                                    }, {
-                                        "chave":9999
-                                    }]
-                                }]
-                            }, {
-                                "chave":9999,
-                                "children": [{
-                                    "chave":9999
-                                }, {
-                                    "chave":9999
-                                }]
-                            }, {
-                                "chave":9999,
-                                "children": [{
-                                    "chave":9999
-                                }, {
-                                    "chave":9999
-                                }]
-                            }
-                        ]
-                    }, {
-                        "chave":9999
-                    }]
-                }]
-            }, {
-                "chave":9999,
-                "children": [{
-                    "chave":9999,
-                    "children":[{
-                        "chave":9999,
-                        "children": [{
-                            "chave":9999
-                        }, {
-                            "chave":9999,
-                            "children": [{
-                                "chave":9999
-                            }, {
-                                "chave":9999
-                            }]
-                        }]
-                    }, {
-                        "chave":9999,
-                        "children": [{
-                            "chave":9999
-                        }, {
-                            "chave":9999
-                        }]
-                    }]
-                }, {
-                    "chave":9999,
-                    "children":[
-                    {
-                        "chave":9999,
-                        "children": [
-                        {
-                            "chave":9999,
-                            "children": [{
-                                "chave":9999
-                            }, {
-                                "chave":9999
-                            }]
-                        }, {
-                            "chave":9999
-                        }]
-                    }]
-                }]
-            }]
-        }, {
-            "chave":9999,
-            "children": [{
-                "chave":9999,
-                "children": [
-                    {
-                        "chave":9999,
-                        "children": [{
-                            "chave":9999,
-                            "children": [{
-                                "chave":9999
-                            }, {
-                                "chave":9999
-                            }]
-                        }, {
-                            "chave":9999,
-                            "children": [{
-                                "chave":9999
-                            }, {
-                                "chave":9999
-                            }]
-                        }]
-                    },{
-                        "chave":9999,
-                        "children": [{
-                            "chave":9999,
-                            "children": [{
-                                "chave":9999
-                            }, {
-                                "chave":9999
-                            }]
-                        }, {
-                            "chave":9999
-                        }]
-                    }
-                ]
-            }, {
-                "chave":9999
-            }]
-        }]
-    }, {
-        "chave":9999,
-        "children": [{
-            "chave":9999,
-            "children": [{
-                "chave":9999
-            }, {
-                "chave":9999
-            }]
-        }, {
-            "chave":9999,
-            "children": [
-            {
-                "chave":9999,
-                "children": [{
-                    "chave":9999,
-                    "children":[
-                        {
-                            "chave":9999,
-                            "children": [{
-                                "chave":9999
-                            }, {
-                                "chave":9999
-                            }]
-                        }, {
-                            "chave":9999,
-                            "children": [{
-                                "chave":9999
-                            }, {
-                                "chave":9999
-                            }]
-                        }   
-                    ]
-                }, {
-                    "chave":9999
-                }]
-            }, {
-                "chave":9999,
-                "children":[
-                    {
-                        "chave":9999,
-                        "children": [{
-                            "chave":9999
-                        }, {
-                            "chave":9999
-                        }]
-                    }   , {
-                        "chave":9999,
-                        "children": [{
-                            "chave":9999
-                        }, {
-                            "chave":9999,
-                            "children":[
-                                {
-                                    "chave":9999
-                                }
-                            ]
-                        }]
-                    }
-                ]
-            }]
-        }]
-    }]
+    "chave":6292,
+    "altura":10,
+    "balance":1,
+    "children":[{
+    "chave":4125,
+    "altura":9,
+    "balance":1,
+    "children":[{
+    "chave":1840,
+    "altura":8,
+    "balance":0,
+    "children":[{
+    "chave":976,
+    "altura":7,
+    "balance":0,
+    "children":[{
+    "chave":306,
+    "altura":6,
+    "balance":-1,
+    "children":[{
+    "chave":183,
+    "altura":4,
+    "balance":-1,
+    "children":[{
+    "chave":181,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":136,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":222,
+    "altura":3,
+    "balance":1,
+    "children":[{
+    "chave":204,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":201,
+    "altura":1,
+    "balance":0
+},{
+    "chave":221,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":275,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":636,
+    "altura":5,
+    "balance":0,
+    "children":[{
+    "chave":438,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":319,
+    "altura":3,
+    "balance":-1,
+    "children":[{
+    "chave":315,
+    "altura":1,
+    "balance":0
+},{
+    "chave":372,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":407,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":552,
+    "altura":3,
+    "balance":-1,
+    "children":[{
+    "chave":497,
+    "altura":1,
+    "balance":0
+},{
+    "chave":574,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":578,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+},{
+    "chave":862,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":727,
+    "altura":3,
+    "balance":-1,
+    "children":[{
+    "chave":681,
+    "altura":1,
+    "balance":0
+},{
+    "chave":738,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":857,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":920,
+    "altura":3,
+    "balance":1,
+    "children":[{
+    "chave":918,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":913,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":923,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+}]
+},{
+    "chave":1483,
+    "altura":6,
+    "balance":1,
+    "children":[{
+    "chave":1215,
+    "altura":5,
+    "balance":-1,
+    "children":[{
+    "chave":1142,
+    "altura":3,
+    "balance":-1,
+    "children":[{
+    "chave":1040,
+    "altura":1,
+    "balance":0
+},{
+    "chave":1212,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":1210,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":1319,
+    "altura":4,
+    "balance":-1,
+    "children":[{
+    "chave":1255,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":1232,
+    "altura":1,
+    "balance":0
+},{
+    "chave":1264,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":1422,
+    "altura":3,
+    "balance":1,
+    "children":[{
+    "chave":1378,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":1380,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":1449,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+},{
+    "chave":1692,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":1682,
+    "altura":3,
+    "balance":1,
+    "children":[{
+    "chave":1573,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":1515,
+    "altura":1,
+    "balance":0
+},{
+    "chave":1574,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":1688,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":1745,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":1735,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":1719,
+    "altura":1,
+    "balance":0
+},{
+    "chave":1737,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":1759,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":1810,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+}]
+}]
+},{
+    "chave":2932,
+    "altura":7,
+    "balance":0,
+    "children":[{
+    "chave":2402,
+    "altura":6,
+    "balance":-1,
+    "children":[{
+    "chave":1963,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":1874,
+    "altura":3,
+    "balance":1,
+    "children":[{
+    "chave":1841,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":1864,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":1895,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":2148,
+    "altura":3,
+    "balance":-1,
+    "children":[{
+    "chave":2132,
+    "altura":1,
+    "balance":0
+},{
+    "chave":2385,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":2193,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+},{
+    "chave":2484,
+    "altura":5,
+    "balance":-1,
+    "children":[{
+    "chave":2445,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":2429,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":2440,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":2470,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":2447,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":2666,
+    "altura":4,
+    "balance":-1,
+    "children":[{
+    "chave":2653,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":2529,
+    "altura":1,
+    "balance":0
+},{
+    "chave":2657,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":2803,
+    "altura":3,
+    "balance":1,
+    "children":[{
+    "chave":2755,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":2772,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":2901,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+}]
+},{
+    "chave":3710,
+    "altura":6,
+    "balance":1,
+    "children":[{
+    "chave":3262,
+    "altura":5,
+    "balance":-1,
+    "children":[{
+    "chave":3132,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":3095,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":3030,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":3250,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":3160,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":3382,
+    "altura":4,
+    "balance":-1,
+    "children":[{
+    "chave":3307,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":3297,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":3617,
+    "altura":3,
+    "balance":1,
+    "children":[{
+    "chave":3507,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":3529,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":3667,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+},{
+    "chave":3919,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":3813,
+    "altura":3,
+    "balance":1,
+    "children":[{
+    "chave":3798,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":3767,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":3859,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":3997,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":3985,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":3976,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":4024,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":4006,
+    "altura":1,
+    "balance":0
+},{
+    "chave":4056,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+}]
+}]
+}]
+},{
+    "chave":5293,
+    "altura":7,
+    "balance":0,
+    "children":[{
+    "chave":4705,
+    "altura":6,
+    "balance":0,
+    "children":[{
+    "chave":4483,
+    "altura":5,
+    "balance":0,
+    "children":[{
+    "chave":4232,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":4166,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":4164,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":4156,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":4185,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":4196,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":4259,
+    "altura":3,
+    "balance":-1,
+    "children":[{
+    "chave":4243,
+    "altura":1,
+    "balance":0
+},{
+    "chave":4309,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":4292,
+    "altura":1,
+    "balance":0
+},{
+    "chave":4462,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+},{
+    "chave":4582,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":4512,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":4491,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":4484,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":4573,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":4535,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":4650,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":4593,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":4649,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":4669,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":4692,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+}]
+},{
+    "chave":5111,
+    "altura":5,
+    "balance":0,
+    "children":[{
+    "chave":4840,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":4750,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":4709,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":4708,
+    "altura":1,
+    "balance":0
+},{
+    "chave":4718,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":4768,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":4831,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":5060,
+    "altura":3,
+    "balance":1,
+    "children":[{
+    "chave":4911,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":4920,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":5110,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":5238,
+    "altura":4,
+    "balance":1,
+    "children":[{
+    "chave":5217,
+    "altura":3,
+    "balance":1,
+    "children":[{
+    "chave":5160,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":5167,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":5225,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":5259,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":5257,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+}]
+},{
+    "chave":5746,
+    "altura":6,
+    "balance":1,
+    "children":[{
+    "chave":5462,
+    "altura":5,
+    "balance":0,
+    "children":[{
+    "chave":5372,
+    "altura":4,
+    "balance":1,
+    "children":[{
+    "chave":5335,
+    "altura":3,
+    "balance":-1,
+    "children":[{
+    "chave":5312,
+    "altura":1,
+    "balance":0
+},{
+    "chave":5369,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":5357,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":5384,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":5416,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":5548,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":5495,
+    "altura":3,
+    "balance":1,
+    "children":[{
+    "chave":5470,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":5489,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":5502,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":5698,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":5683,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":5550,
+    "altura":1,
+    "balance":0
+},{
+    "chave":5685,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":5729,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":5734,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+}]
+},{
+    "chave":5868,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":5788,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":5780,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":5764,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":5865,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":5795,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":6071,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":6064,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":6059,
+    "altura":1,
+    "balance":0
+},{
+    "chave":6070,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":6183,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":6171,
+    "altura":1,
+    "balance":0
+},{
+    "chave":6193,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+}]
+}]
+}]
+},{
+    "chave":8001,
+    "altura":8,
+    "balance":-1,
+    "children":[{
+    "chave":7320,
+    "altura":6,
+    "balance":0,
+    "children":[{
+    "chave":6939,
+    "altura":5,
+    "balance":0,
+    "children":[{
+    "chave":6681,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":6420,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":6387,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":6361,
+    "altura":1,
+    "balance":0
+},{
+    "chave":6393,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":6532,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":6479,
+    "altura":1,
+    "balance":0
+},{
+    "chave":6643,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":6713,
+    "altura":3,
+    "balance":-1,
+    "children":[{
+    "chave":6689,
+    "altura":1,
+    "balance":0
+},{
+    "chave":6772,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":6744,
+    "altura":1,
+    "balance":0
+},{
+    "chave":6875,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+},{
+    "chave":7188,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":7087,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":7065,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":7009,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":7143,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":7091,
+    "altura":1,
+    "balance":0
+},{
+    "chave":7150,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":7260,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":7216,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":7204,
+    "altura":1,
+    "balance":0
+},{
+    "chave":7256,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":7300,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":7309,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+}]
+},{
+    "chave":7660,
+    "altura":5,
+    "balance":0,
+    "children":[{
+    "chave":7600,
+    "altura":4,
+    "balance":1,
+    "children":[{
+    "chave":7408,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":7343,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":7359,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":7534,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":7492,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":7637,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":7631,
+    "altura":1,
+    "balance":0
+},{
+    "chave":7654,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":7845,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":7708,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":7676,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":7670,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":7770,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":7721,
+    "altura":1,
+    "balance":0
+},{
+    "chave":7843,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":7923,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":7883,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":7919,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":7993,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":7954,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+}]
+}]
+},{
+    "chave":9353,
+    "altura":7,
+    "balance":1,
+    "children":[{
+    "chave":8538,
+    "altura":6,
+    "balance":0,
+    "children":[{
+    "chave":8433,
+    "altura":5,
+    "balance":1,
+    "children":[{
+    "chave":8227,
+    "altura":4,
+    "balance":-1,
+    "children":[{
+    "chave":8123,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":8019,
+    "altura":1,
+    "balance":0
+},{
+    "chave":8131,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":8370,
+    "altura":3,
+    "balance":1,
+    "children":[{
+    "chave":8242,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":8317,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":8399,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":8478,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":8458,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":8450,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":8526,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":8489,
+    "altura":1,
+    "balance":0
+},{
+    "chave":8527,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+},{
+    "chave":8733,
+    "altura":5,
+    "balance":0,
+    "children":[{
+    "chave":8647,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":8593,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":8582,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":8548,
+    "altura":1,
+    "balance":0
+},{
+    "chave":8588,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":8617,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":8599,
+    "altura":1,
+    "balance":0
+},{
+    "chave":8626,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":8679,
+    "altura":3,
+    "balance":1,
+    "children":[{
+    "chave":8666,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":8665,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":8714,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":9090,
+    "altura":4,
+    "balance":1,
+    "children":[{
+    "chave":8851,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":8802,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":8796,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":9013,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":8891,
+    "altura":1,
+    "balance":0
+},{
+    "chave":9046,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":9150,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":9180,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+}]
+},{
+    "chave":9740,
+    "altura":5,
+    "balance":0,
+    "children":[{
+    "chave":9435,
+    "altura":4,
+    "balance":0,
+    "children":[{
+    "chave":9382,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":9373,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":9375,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":9422,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":9420,
+    "altura":1,
+    "balance":0
+}]
+}]
+},{
+    "chave":9603,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":9582,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":9524,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":9618,
+    "altura":2,
+    "balance":0,
+    "children":[{
+    "chave":9611,
+    "altura":1,
+    "balance":0
+},{
+    "chave":9723,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+},{
+    "chave":9831,
+    "altura":4,
+    "balance":-1,
+    "children":[{
+    "chave":9821,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":9817,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":9967,
+    "altura":3,
+    "balance":0,
+    "children":[{
+    "chave":9884,
+    "altura":2,
+    "balance":-1,
+    "children":[{
+    "chave":9947,
+    "altura":1,
+    "balance":0
+}]
+},{
+    "chave":9997,
+    "altura":2,
+    "balance":1,
+    "children":[{
+    "chave":9978,
+    "altura":1,
+    "balance":0
+}]
+}]
+}]
+}]
+}]
+}]
+}]
 }

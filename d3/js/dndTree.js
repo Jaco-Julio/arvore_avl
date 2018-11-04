@@ -118,7 +118,7 @@ treeJSON = d3.json("data/data.json", function(error, treeData) {
             }
         };
         childCount(0, root);
-        var newHeight = d3.max(levelWidth) * 125; // 25 pixels per line  
+        var newHeight = d3.max(levelWidth) * 150; // 25 pixels per line  
         tree = tree.size([newHeight, viewerWidth]);
 
         // Compute the new tree layout.
@@ -150,19 +150,51 @@ treeJSON = d3.json("data/data.json", function(error, treeData) {
 
         nodeEnter.append("text")
             .attr("x", function(d) {
-                return d.children || d._children ? -10 : 10;
+                //return d.children || d._children ? -10 : 10;
             })
-            .attr("dy", ".35em")
+            .attr("dy", "0em")
+            .attr('class', 'nodeText')
+            .attr("text-anchor", function(d) {
+                return d.children || d._children ? "start" : "start";
+            })
+            .text(function(d) {
+                return d.chave;
+            })
+            .style("fill-opacity", 0)
+            .style("fill", "#0000ff")
+            .style("font-size","10pt");
+
+        nodeEnter.append("text")
+            .attr("x", function(d) {
+                return d.children || d._children ? 10 : -10;
+            })
+            .attr("dy", "1.5em")
             .attr('class', 'nodeText')
             .attr("text-anchor", function(d) {
                 return d.children || d._children ? "end" : "start";
             })
             .text(function(d) {
-                return d.chave;
+                return "h: " + d.altura;
             })
-            .style("fill-opacity", 0);
+            .style("fill-opacity", 1);
 
         
+        nodeEnter.append("text")
+            .attr("x", function(d) {
+                return d.children || d._children ? 30 : 30;
+            })
+            .attr("dy", "-2em")
+            .attr('class', 'nodeText')
+            .attr("text-anchor", function(d) {
+                return d.children || d._children ? "end" : "start";
+            })
+            .text(function(d) {
+                return d.balance;
+            })
+            .style("fill-opacity", 1)
+            .style("fill", "#ff0000");
+
+
         // Update the text to reflect whether node has children or not.
         node.select('text')
             .attr("x", function(d) {
@@ -172,9 +204,9 @@ treeJSON = d3.json("data/data.json", function(error, treeData) {
                 return d.children || d._children ? "end" : "start";
             })
             .text(function(d) {
+                console.log(d);
                 return d.chave;
             });
-
         // Change the circle fill depending on whether it has children and is collapsed
         node.select("circle.nodeCircle")
             .attr("r", 25)
