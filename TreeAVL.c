@@ -128,11 +128,11 @@ void rotacaoSimplesDireita(Tree*raiz){
     node->dir = *raiz;
     *raiz = node;
 }
-void rotacaoDuplaEsquerda(Tree*raiz){
+void rotacaoDuplaDireita(Tree*raiz){
     rotacaoSimplesEsquerda(&((*raiz)->esq));
     rotacaoSimplesDireita(&(*raiz));
 }
-void rotacaoDuplaDireita(Tree*raiz){
+void rotacaoDuplaEsquerda(Tree*raiz){
     rotacaoSimplesDireita(&((*raiz)->dir));
     rotacaoSimplesEsquerda(&(*raiz));
 }
@@ -162,7 +162,7 @@ int insereArvore(int valor, Tree*raiz){
             if((*raiz)->fb>1){
                 if((*raiz)->esq->info < valor){
                     printf("esquerda");
-                    rotacaoDuplaEsquerda(&(*raiz));
+                    rotacaoDuplaDireita(&(*raiz));
                 } else {
                     rotacaoSimplesDireita(&(*raiz));
                 }
@@ -171,7 +171,7 @@ int insereArvore(int valor, Tree*raiz){
                 if((*raiz)->dir->info > valor){
                     printf("direita");
 
-                   rotacaoDuplaDireita(&(*raiz));
+                   rotacaoDuplaEsquerda(&(*raiz));
                 } else {
                    rotacaoSimplesEsquerda(&(*raiz));
                 }

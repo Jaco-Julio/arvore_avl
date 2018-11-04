@@ -43,7 +43,16 @@ int main(int argc, char** argv) {
         printf("\nA altura da arvore é %d.", alturaArvore(t));
     }
     printf("\nA arvore possui %d nós.", totalNodesArvore(t));
-
+    //printf("\nEm Ordem:");
+    //imprimeEmOrdem(t);
+    //printf("\nPreOrdem: ");
+    //imprimePosOrdem(t);
+    //printf("\nPosOrdem: ");
+    //imprimePreOrdem(t);
+    //printf("\nA árvore possue %d nós-folha.",contaNosFolha(t));
+    //printf("\nA altura da árvore é %d.",alturaArvore(t));
+    
+    //menuRemove();
     
     return (EXIT_SUCCESS);
 }
