@@ -26,5 +26,6 @@ void rotacaoSimplesEsquerda(Tree*raiz);
 void rotacaoSimplesDireita(Tree*raiz);
 void rotacaoDuplaEsquerda(Tree*raiz);
 void rotacaoDuplaDireita(Tree*raiz);
+void removeNo(Tree* raiz, int valor);
 
 int insereArvore(int valor, Tree*raiz);
